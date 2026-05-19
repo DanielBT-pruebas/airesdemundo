@@ -109,8 +109,8 @@
       display: flex;
       align-items: center;
       background:
-        linear-gradient(rgba(0,0,0,0.46), rgba(0,0,0,0.50)),
-        url('Foto 2.jpg') center/cover;
+        linear-gradient(90deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.38) 48%, rgba(0,0,0,0.12) 100%),
+        url('Foto 1.jpg') center/cover;
       color: white;
       position: relative;
     }
@@ -413,17 +413,17 @@
 
       .hero {
         min-height: 100svh;
-        padding: 42px 0 34px;
+        padding: 38px 0 30px;
         align-items: flex-start;
         background:
           linear-gradient(
             180deg,
-            rgba(0,0,0,0.70) 0%,
-            rgba(0,0,0,0.58) 38%,
-            rgba(0,0,0,0.28) 56%,
-            rgba(0,0,0,0.10) 100%
+            rgba(0,0,0,0.72) 0%,
+            rgba(0,0,0,0.58) 36%,
+            rgba(0,0,0,0.24) 58%,
+            rgba(0,0,0,0.08) 100%
           ),
-          url('Foto 2.jpg') center bottom/cover;
+          url('Foto 1.jpg') 58% center/cover;
       }
 
       .hero-content {
@@ -432,24 +432,23 @@
       }
 
       h1 {
-        font-size: clamp(1.75rem, 8.6vw, 2.35rem);
+        font-size: clamp(1.72rem, 8.4vw, 2.32rem);
         line-height: 1.08;
-        margin-bottom: 16px;
-        max-width: 95%;
+        margin-bottom: 15px;
+        max-width: 96%;
       }
 
       .hero p {
-        font-size: 0.98rem;
-        line-height: 1.45;
-        margin-bottom: 20px;
-        max-width: 94%;
+        font-size: 0.96rem;
+        line-height: 1.42;
+        margin-bottom: 18px;
+        max-width: 95%;
       }
 
       .btn {
-        width: auto;
-        max-width: 100%;
-        padding: 13px 20px;
-        font-size: 0.82rem;
+        width: 100%;
+        padding: 13px 18px;
+        font-size: 0.8rem;
         line-height: 1.25;
         white-space: normal;
       }
@@ -462,8 +461,18 @@
         padding: 26px;
       }
 
+      .image-card img {
+        min-height: 340px;
+      }
+
+      .visual-strip img {
+        height: 300px;
+      }
+
       .cta-section {
-        background-position: center;
+        background:
+          linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.74)),
+          url('Foto 4.jpg') center/cover;
       }
     }
   </style>
@@ -550,9 +559,9 @@
         </div>
 
         <div class="image-card">
-          <img src="Foto 1.jpg" alt="Adriana y Jorge de Aires de Mundo viajando por Tailandia">
+          <img src="Foto 3.jpg" alt="Adriana y Jorge trabajando en el diseño de viajes personalizados">
           <div class="image-caption">
-            Adriana y Jorge recorriendo el Sudeste Asiático, su segunda casa.
+            Adriana y Jorge diseñando viajes desde el destino, con experiencia real sobre el terreno.
           </div>
         </div>
       </div>
@@ -610,8 +619,8 @@
   <section class="visual-strip">
     <div class="container">
       <div class="visual-strip-grid">
-        <img src="Foto 3.jpg" alt="Adriana y Jorge viajando por un templo del Sudeste Asiático">
-        <img src="Foto 4.jpg" alt="Atardecer en una playa del Sudeste Asiático">
+        <img src="Foto 2.jpg" alt="Aires de Mundo viajando por playas del Sudeste Asiático">
+        <img src="Foto 4.jpg" alt="Adriana y Jorge en una cascada del Sudeste Asiático">
       </div>
     </div>
   </section>
